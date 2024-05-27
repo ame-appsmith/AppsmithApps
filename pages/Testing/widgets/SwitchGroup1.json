@@ -1,0 +1,52 @@
+{
+    "widgetName": "SwitchGroup1",
+    "isCanvas": false,
+    "displayName": "Switch Group",
+    "iconSVG": "/static/media/icon.c98225eee52c61080cd91042d88545c8.svg",
+    "labelText": "Label",
+    "topRow": 41,
+    "bottomRow": 45,
+    "parentRowSpace": 10,
+    "labelWidth": 5,
+    "type": "SWITCH_GROUP_WIDGET",
+    "hideCard": false,
+    "animateLoading": true,
+    "parentColumnSpace": 19.4375,
+    "leftColumn": 62,
+    "dynamicBindingPathList": [{"key": "accentColor"}],
+    "labelPosition": "Left",
+    "options": [
+        {
+            "label": "Blue",
+            "value": "BLUE"
+        },
+        {
+            "label": "Green",
+            "value": "GREEN"
+        },
+        {
+            "label": "Red",
+            "value": "RED"
+        }
+    ],
+    "isDisabled": false,
+    "key": "2qvwa04zih",
+    "labelTextSize": "0.875rem",
+    "isRequired": false,
+    "isDeprecated": false,
+    "rightColumn": 64,
+    "defaultSelectedValues": ["BLUE"],
+    "dynamicHeight": "FIXED",
+    "widgetId": "vor1bm2n5v",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "0",
+    "labelAlignment": "left",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "maxDynamicHeight": 9000,
+    "isInline": true,
+    "alignment": "left",
+    "minDynamicHeight": 4
+}

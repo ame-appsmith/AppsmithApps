@@ -1,0 +1,153 @@
+{
+    "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+    "widgetName": "Chart1Copy5",
+    "allowScroll": false,
+    "dynamicPropertyPathList": [{"key": "boxShadow"}],
+    "displayName": "Chart",
+    "iconSVG": "/static/media/icon.6adbe31ed817fc4bfd66f9f0a6fc105c.svg",
+    "searchTags": [
+        "graph",
+        "visuals",
+        "visualisations"
+    ],
+    "topRow": 14,
+    "bottomRow": 46,
+    "parentRowSpace": 10,
+    "type": "CHART_WIDGET",
+    "hideCard": false,
+    "chartData": {"zlzlbbqsxe": {
+        "data": [
+            {
+                "x": "Product1",
+                "y": 20000
+            },
+            {
+                "x": "Product2",
+                "y": 22000
+            },
+            {
+                "x": "Product3",
+                "y": 32000
+            }
+        ],
+        "seriesName": "Sales"
+    }},
+    "animateLoading": true,
+    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "parentColumnSpace": 17.6064453125,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 0,
+    "dynamicBindingPathList": [
+        {"key": "accentColor"},
+        {"key": "fontFamily"}
+    ],
+    "customFusionChartConfig": "{\n  \"type\": \"column2d\",\n  \"dataSource\": {\n    \"data\": [\n      {\n        \"label\": \"Product1\",\n        \"value\": 20000\n      },\n      {\n        \"label\": \"Product2\",\n        \"value\": 22000\n      },\n      {\n        \"label\": \"Product3\",\n        \"value\": 32000\n      }\n    ],\n    \"chart\": {\n      \"caption\": \"Sales Report\",\n      \"xAxisName\": \"Product Line\",\n      \"yAxisName\": \"Revenue($)\",\n      \"theme\": \"fusion\",\n      \"alignCaptionWithCanvas\": 1,\n      \"captionFontSize\": \"24\",\n      \"captionAlignment\": \"center\",\n      \"captionPadding\": \"20\",\n      \"captionFontColor\": \"#231F20\",\n      \"legendIconSides\": \"4\",\n      \"legendIconBgAlpha\": \"100\",\n      \"legendIconAlpha\": \"100\",\n      \"legendPosition\": \"top\",\n      \"canvasPadding\": \"0\",\n      \"chartLeftMargin\": \"20\",\n      \"chartTopMargin\": \"10\",\n      \"chartRightMargin\": \"40\",\n      \"chartBottomMargin\": \"10\",\n      \"xAxisNameFontSize\": \"14\",\n      \"labelFontSize\": \"12\",\n      \"labelFontColor\": \"#716E6E\",\n      \"xAxisNameFontColor\": \"#716E6E\",\n      \"yAxisNameFontSize\": \"14\",\n      \"yAxisValueFontSize\": \"12\",\n      \"yAxisValueFontColor\": \"#716E6E\",\n      \"yAxisNameFontColor\": \"#716E6E\"\n    }\n  }\n}",
+    "customEChartConfig": {
+        "yAxis": [{"type": "value"}],
+        "xAxis": [{"type": "category"}],
+        "legend": {
+            "top": 40,
+            "type": "scroll"
+        },
+        "grid": {
+            "top": 100,
+            "left": 15,
+            "bottom": 30,
+            "right": 15,
+            "containLabel": true
+        },
+        "series": [
+            {
+                "stack": "Search Engine",
+                "type": "bar"
+            },
+            {
+                "stack": "Search Engine",
+                "type": "bar"
+            },
+            {
+                "stack": "Search Engine",
+                "type": "bar"
+            }
+        ],
+        "tooltip": {
+            "axisPointer": {"type": "shadow"},
+            "trigger": "axis"
+        },
+        "title": {
+            "left": "center",
+            "text": "Search Engine Usage",
+            "textStyle": {
+                "overflow": "truncate",
+                "width": 200
+            }
+        },
+        "dataset": {"source": [
+            [
+                "Day",
+                "Baidu",
+                "Google",
+                "Bing"
+            ],
+            [
+                "Mon",
+                620,
+                120,
+                60
+            ],
+            [
+                "Tue",
+                732,
+                132,
+                72
+            ],
+            [
+                "Wed",
+                701,
+                101,
+                71
+            ],
+            [
+                "Thu",
+                734,
+                134,
+                74
+            ],
+            [
+                "Fri",
+                1090,
+                290,
+                190
+            ],
+            [
+                "Sat",
+                1130,
+                230,
+                130
+            ],
+            [
+                "Sun",
+                1120,
+                220,
+                110
+            ]
+        ]}
+    },
+    "key": "fv0w9v2omb",
+    "showDataPointLabel": false,
+    "isDeprecated": false,
+    "rightColumn": 54,
+    "widgetId": "as8gcagayy",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "nn7m72hhgw",
+    "labelOrientation": "auto",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "yAxisName": "Revenue($)",
+    "chartName": "Sales Report",
+    "borderRadius": "0.375rem",
+    "xAxisName": "Product Line",
+    "chartType": "COLUMN_CHART"
+}

@@ -1,0 +1,33 @@
+{
+    "boxShadow": "none",
+    "widgetName": "IconButton1Copy2Copy2",
+    "buttonColor": "#ec4899",
+    "displayName": "Icon Button",
+    "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+    "searchTags": [
+        "click",
+        "submit"
+    ],
+    "topRow": 2,
+    "bottomRow": 10,
+    "type": "ICON_BUTTON_WIDGET",
+    "hideCard": false,
+    "animateLoading": true,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 46,
+    "dynamicBindingPathList": [],
+    "isDisabled": false,
+    "key": "hgosdrjxrv",
+    "isDeprecated": false,
+    "rightColumn": 62,
+    "iconName": "dollar",
+    "widgetId": "wui4wj9u7l",
+    "buttonStyle": "PRIMARY",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "s2mx4l4spx",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "borderRadius": "1.5rem",
+    "buttonVariant": "PRIMARY"
+}
